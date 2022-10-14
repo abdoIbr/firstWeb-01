@@ -1,0 +1,1061 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.MainHeader {
+  background-color: rgb(49, 48, 48);
+  width: 100%;
+  height: 60px;
+  overflow: auto;
+}
+
+.MainHeader img {
+  width: 120px;
+  height: 60px;
+  margin-left: 150px;
+}
+
+.fUl {
+  float: right;
+  margin-right: 150px;
+  margin-top: 15px;
+  
+  
+  
+}
+
+.fUl li {
+  list-style: none;
+  display: inline;
+  margin-left: 25px;
+}
+.fUl li a{
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+
+}
+
+.fUl li a:hover {
+  color: rgb(255, 120, 23);
+}
+
+.fUl li a:active {
+  background-color: chocolate;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+} 
+
+/*---------------- FishNaveBar------------*/
+
+/*---------------- startOverlaySection-----------*/
+.home {
+  height: 100vh;
+  background-image: url(../image/natur.jpg);
+  position: relative;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top:0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.7);
+  
+}
+
+.homeContent {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+ transform: translate(-50%, -50%);
+ text-align: center;
+  
+}
+
+.homeContent h2 {
+  font-size: 50px;
+  font-weight: 800;
+  color: white;
+}
+
+.homeContent h2:hover {
+  font-size: 52px;
+
+}
+
+.homeContent p {
+  color: rgb(241, 178, 3);
+  font-size: 22px;
+}
+
+.homeContent p:hover {
+  font-size: 24px;
+}
+
+.homeContent .btn01, .btn02  {
+  width: 150px;
+  padding: 15px 0;
+  cursor: pointer;
+  margin-top: 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  border: none;
+
+}
+
+.homeContent .btn01:hover, .btn02:hover {
+  width: 160px;
+} 
+.homeContent .btn01:hover {
+  opacity: 0.7;
+}
+
+.homeContent .btn02 {
+  background-color: rgb(21, 21, 161);
+  color: white;
+  font-size: 22px;
+}
+
+/*---------------- endOverlaySection-----------*/
+
+/*---------------- startWelcomeSection-----------*/
+.welcomeSec {
+  width: 100%;
+  height: 150px;
+  text-align: center;
+}
+
+.welcomeSec h2 {
+  font-size: 35px;
+  color: rgb(29, 25, 25);
+  margin-top: 50px;
+}
+
+.welcomeSec .line01 {
+  width: 80px;
+  height: 4px;
+  background-color:  rgb(255, 120, 23);
+  margin: auto;
+  margin-top: 20px;
+} 
+
+.myBoxes {
+  margin-left: 150px;
+  
+  overflow: auto;
+}
+.wellcomeCont {
+  width: 250px;
+  height: 260px;
+  border:2px solid gray;
+  text-align: center;
+   border-radius: 5px;
+   float: left;
+   position: relative;
+   margin-right: 90px;
+}
+
+.wellcomeCont::after {
+  content: "";
+  width: 0%;
+  height:0;
+  position: absolute;
+  top: 0px;
+  left:0px;
+  background-color: black;
+  opacity: 0.8;
+  
+
+}
+
+.wellcomeCont:hover::after {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left:0px;
+  transition: 0.5s;
+   z-index: -1;
+}
+
+
+.wellcomeCont .myIcon {
+  padding-top: 35px;
+  color: rgb(28, 54, 202);
+  font-size: 25px;
+ 
+  
+}
+
+.wellcomeCont:hover .myIcon {
+  color: rgb(79, 104, 247);
+}
+
+.wellcomeCont h2 {
+  font-size: 20px;
+  padding-top: 15px;
+}
+
+.wellcomeCont:hover h2 {
+  color:rgb(255, 255, 255);
+  z-index: 5;
+}
+
+.wellcomeCont p {
+  font-size: 16px;
+  color: grey;
+  padding-top: 15px;
+}
+.wellcomeCont:hover p {
+   color: rgb(155, 150, 150);
+}
+
+.wellcomeCont button {
+  border: none;
+  font-size: 17px;
+  color: blue;
+  padding: 5px;
+  margin-top: 7px;
+  
+}
+
+
+
+
+
+/*--------------FeatursSec------------------*/
+
+.OurFeatures {
+  width: 100%;
+  height: 920px;
+  background-color: rgb(192, 188, 188);
+  position: relative;
+  overflow: auto;
+  margin-top: 50px;
+}
+
+
+.MainH02  {
+  text-align: center;
+  margin-top: 30px;
+ }
+ 
+ .MainH02 h2 {
+   font-size: 35px;
+   font-weight: bold;
+   padding-top: 30px;
+ }
+ 
+ .MainH02 .line011 {
+    width: 80px;
+    height: 4px;
+    background-color:  rgb(255, 120, 23);
+    margin: auto;
+    margin-top: 20px;
+ }
+ 
+ .Container {
+  width: 80%;
+  margin: auto;
+  overflow: auto;
+  position: relative;
+ }
+
+  
+.myBoxes01 {
+  width: 230px;
+  height: 350px;
+  border: 2px solid gray;
+  background-color: rgb(238, 235, 235);
+  position: relative;
+  float: left;
+  margin-right: 93px;
+  margin-bottom: 25px;
+  
+}
+
+
+.myBoxes01::after {
+  content: "";
+  width: 100%;
+  height: 0;
+  position: absolute;
+  top:0;
+  left:0;
+  background-color: rgba(0, 0, 0, .7);
+  transition: 1s;
+  
+  
+}
+
+.myBoxes01:hover::after {
+  width: 100%;
+  height: 100%;
+  top:0;
+  left:0;
+  
+
+}
+
+
+
+.theImg {
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.im-info {
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  visibility: hidden;
+  
+}
+
+
+.myBoxes01:hover .im-info {
+  visibility: visible;
+  z-index: 3;
+}
+
+.im-info h2 {
+  color: rgb(42, 42, 236);
+}
+
+.myBoxes01:hover .im-info h2 {
+  color: rgb(80, 80, 243);
+}
+
+
+.im-info p {
+  color:gray;
+  font-weight: bold;
+}
+
+.myBoxes01:hover .im-info p {
+  color: white;
+ 
+}
+
+
+.im-info .myIc {
+  color: white;
+  width: 25px;
+  height: 25px;
+  background-color: rgb(32, 93, 207);
+  margin-top: 10px;
+  padding-top: 6px;
+}
+
+
+/*--------------- Offer Sectoin ------------*/
+
+.OurOffer {
+  width: 100%;
+  height: 1200px;
+  
+  
+}
+
+.p01 {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  font-size: 35px;
+  margin-top: 50px;
+
+}
+
+.OurOffer .lineOffer {
+  width: 80px;
+  height: 4px;
+  background-color:  rgb(255, 120, 23);
+  margin: auto;
+  margin-top: 20px;
+}
+
+/*-----------Part2(Title and BlueLine---------------*/
+
+.mainContforOffer {
+ width: 100%;
+ height: 600px;
+ overflow: auto;
+}
+.offerBoxes {
+  margin-top: 50px;
+  margin-left: 150px;
+  margin-right: 0px;
+  width: 220px;
+  height: 160px;
+  border: 2px solid grey;
+  border-radius: 10px;
+  padding: 15px;
+  overflow: auto;
+  position: relative;
+  float: left;
+  
+}
+
+.offerBoxes::after {
+  content: "";
+  width: 0%;
+  height: 0;
+  position: absolute;
+  top:0;
+  left: 0;
+  background-color: black;
+  opacity: 0.8;
+  transition: 1s;
+  z-index: 0;
+}
+
+.offerBoxes:hover:after {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top:0;
+  left: 0;
+  z-index: -1;
+}
+
+.offerBoxes span {
+  float: left;
+  width: 50px;
+  height: 50px;
+}
+
+.offerBoxes span a {
+  font-size: 30px;
+  color: rgb(10, 96, 196);
+  margin-top: 10px;
+  display: block;
+
+}
+
+.appPart  {
+  margin-left: 65px;
+  margin-top: 10px;
+  
+  
+}
+
+.appPart h3 {
+  color: black;
+  font-size: 18px;
+}
+.offerBoxes:hover .appPart h3 {
+  color: rgb(255, 177, 8);
+}
+
+
+.appPart  p {
+  padding-top: 7px;
+}
+
+.offerBoxes:hover .appPart  p {
+  color: rgb(238, 231, 231);
+}
+
+/*------------ourChoice Section -----------*/
+
+    .ourChoice {
+      width: 100%;
+      height: 500px;
+      background-color: rgb(226, 223, 223);
+        
+    }
+
+    .textSide {
+      margin-left: 150px ;
+      margin-top: 50px;
+      float: left;
+      width: 450px;
+    }
+
+    .textSide h2 {
+      font-size: 35px;
+    }
+
+    .textSide span {
+      display: block;
+      width: 75px;
+      height: 4px;
+      background-color: rgb(27, 46, 223);
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+
+    .textSide .contentSide {
+      font-size: 20px;
+      line-height: 1.5em;
+    }
+
+    .textSide ol {
+      margin-top: 10px;
+    
+    }
+
+    .textSide ol .lastList {
+      display: inline;
+      widows: 30px;
+      height: 30px;
+      border-radius: 50%;
+      border: 2px solid blue;
+      margin: 10px;
+    
+    }
+    .textSide ol dt {
+      padding: 7px;
+      font-size: 20px;
+    }
+
+
+
+    .photoSide img {
+      width: 450px;
+      height: 330px;
+      margin-top: 50px;
+      margin-left: 100px;
+     
+      
+    }
+
+    .photoSide {
+      position: relative;
+    }
+
+    .photoSide ul {
+      list-style: none;
+      margin-right: 380px;
+      margin-top: 10px;
+    }
+
+    .photoSide li {
+      width: 20px;
+      height: 20px;
+      background-color: rgb(150, 146, 146);
+      display: inline; 
+      float: right;
+      border-radius: 50%;
+      margin-right: 10px;
+      
+    }
+    .photoSide li:hover {
+      background-color: rgb(92, 89, 89);
+    }
+    
+
+    /*------------ StartHappyClient --------*/
+
+    .happyClient {
+      width: 100%;
+      height: 300px;
+      position: relative;
+      top:0px;
+      left:0px;
+      background-image: url(../image/lab01.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    .overlay {
+              width: 100%;
+              height: 100%;
+              position: absolute;
+              top:0px;
+              left: 0px;
+              background-color: rgba(0, 0, 0, 0.7);
+
+        }
+        
+
+        .col01 {
+          width: 230px;
+          float: left;
+          margin-left: 70px;
+          margin-top: 100px;
+          text-align: center;
+        }
+
+        .overlay  .col01 .myIcon4 {
+          color: rgb(248, 195, 22);
+          font-size: 45px;
+          display: block;
+        }
+
+     .overlay  .col01 span {
+       font-size: 50px;
+       color: white;
+       font-weight: bold;
+       
+      }
+
+     .overlay  .col01 p {
+       color: rgb(243, 234, 234);
+     }
+
+/*-------------- PriceSection --------------------- */
+    .PriceSection {
+      width: 100%;
+      height: 600px;
+      background-color: rgb(231, 227, 227);
+    }
+
+    .PriceSection .priceTitel {
+          padding-top: 50px;
+          text-align: center;
+          font-size: 40px;
+    }
+
+    .PriceSection .priceLine {
+        width: 80px;
+        height: 4px;
+        background-color:  rgb(255, 120, 23);
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .fistPlan {
+      margin-left: 120px;
+      margin-top: 40px;
+      width: 270px;
+      height: 350px;
+      border: 2px solid grey;
+      border-radius: 15px;
+      text-align: center;
+      position: relative;
+      float: left;
+     
+    }
+
+    .fistPlan::after {
+      content: "";
+      width: 100%;
+      height: 0px;
+      position: absolute;
+      top:0px;
+      left: 0px;
+      background-color: rgba(0, 0, 0, 0.5);
+      transition: 1s;
+    }
+
+    .fistPlan:hover::after {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top:0px;
+      left: 0px;
+      background-color: rgba(0, 0, 0, 0.4);
+      transition: 1s;
+    }
+
+
+    .fistPlan h3 {
+      text-align: center;
+      font-size: 20px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+
+    }
+
+    .fistPlan:hover h3 {
+      color: red;
+    }
+    .fistPlan .PriceNum {
+        width: 90px;
+        height: 90px;
+        font-weight: bold;
+        text-align: center;
+        border: 2px solid blue;
+        border-radius: 50%;
+        margin: auto;
+
+    }
+
+    .fistPlan:hover  .PriceNum {
+      color: rgb(243, 0, 0);
+      
+    }
+    .fistPlan .PriceNum span {
+      font-size: 35px;
+      display: block;
+      margin: auto;
+  
+    }
+
+    .fistPlan ul {
+      display: block;
+      list-style: none;
+    }  
+
+    .fistPlan ul li {
+      margin-top: 10px;
+      color: rgb(46, 44, 44);
+    } 
+
+  
+    .fistPlan button {
+      font-size: 17px;
+      width: 120px;
+      height: 35px;
+      margin-top: 10px;
+      background-color: rgb(27, 27, 187);
+      color: white;
+      border: none;
+      border-radius: 7px;
+    }
+
+    .fistPlan:hover button {
+      background-color: rgb(231, 179, 7);
+    }
+
+/*---------------- OurTeam -----------------------*/
+      .aboutMe{
+        width: 100%;
+        height: 360px;
+        background-image: url(../image/design.jpg);
+        background-size: cover;
+      }
+
+      .aboutMe .overlay {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top:0px;
+        left: 0px;
+        background-color: rgba(0, 0, 0, 0.7);
+        overflow: auto;
+
+      }
+
+      .aboutMe .GraphicDes {
+        margin-left: 170px;
+        margin-top: 100px;
+        float: left;
+        width: 500px;
+      }
+
+      
+      .GraphicDes h2 {
+        padding-top: 27px;
+        font-size: 25px;
+        color:#ffff;
+      }
+
+      .GraphicDes span {
+          font-size: 18px;
+          color: rgb(236, 233, 12);
+          font-weight: bold;
+          
+      }
+      .GraphicDes img {
+        width: 100px;
+        height: 100px;
+        border: 2px solid white;
+        border-radius: 50%;
+        float: left;
+        margin-right: 25px;
+      }
+
+      .GraphicDes p{
+        color: white;
+        font-size: 18px;
+        padding-top: 25px;
+       
+      }
+
+
+      .aboutMe .WebDes {
+        margin-top: 100px;
+        float: left;
+        width: 500px;
+      }
+
+      .WebDes h2 {
+        padding-top: 27px;
+        font-size: 25px;
+        color: #ffff;
+      }
+     
+      .WebDes span {
+        font-size: 18px;
+        color: rgb(245, 221, 3);
+        font-weight: bold;
+        
+      }
+
+      .WebDes p{
+        color: white;
+        font-size: 18px;
+        padding-top: 25px;
+        
+      }
+      .WebDes img {
+        width: 100px;
+        height: 100px;
+        border: 2px solid white;
+        border-radius: 50%;
+        margin-right: 25px;
+        float: left;
+      }
+
+/*------------------------Our-Team-------------------------------*/
+
+.OurTeam-Main-title {
+  font-size: 35px;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.OurTeam-title-line {
+  width: 80px;
+  height: 4px;
+  background-color:  rgb(255, 120, 23);
+  margin: auto;
+  margin-top: 20px;
+  display: block;
+  margin-bottom: 50px;
+}
+
+
+.team-content {
+
+  overflow: auto;
+}
+
+.team-item {
+  float: left;
+  width: 27%;
+  background-color: rgb(177, 174, 174);
+  padding: 17px 13px;
+  text-align: center;
+  position: relative;
+}
+
+.mg {
+ margin: 0 5%;
+}
+
+.team-img {
+  width: 90%;
+  margin: auto;
+  position: relative;
+}
+
+.team-overlay {
+  position: absolute;
+  top:0;
+  left:0;
+  right: 0;
+  bottom: 0;
+  background-color:rgba(0, 0, 0, .5);
+  visibility: hidden;
+  opacity: 0;  
+}
+
+.team-img img {
+  width: 100%;
+}
+
+.team-item:hover .team-overlay {
+   visibility: visible;
+  opacity: 1;  
+} 
+
+.team-overlay a{
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-color: rgb(19, 84, 182);
+  color: white;
+  margin-left: auto;
+}
+
+.team-overlay a i {
+  line-height: 40px;
+}
+
+.team-info-title {
+  padding: 10px 0;
+}
+
+.team-info-text {
+  color: rgb(53, 51, 51);
+  
+}
+
+/*------------ .team-item after------------*/
+
+.team-item::after {
+  content: "";
+  width: 100%;
+  height: 0;
+  position: absolute;
+  top:0;
+  left: 0;
+  background-color: grey;
+  opacity: 0;
+}
+
+.team-item:hover::after {
+  width: 100%;
+  height: 100%;
+  opacity: .5;
+  transition: 1s;
+}
+
+/*------------Recent Section-----------------*/
+
+.Container {
+  overflow: auto;
+}
+.recen-new-mainTitle {
+  text-align: center;
+  font-size: 35px;
+  padding-top: 50px;
+}
+
+.recent-MainHeader-Line {
+  width: 72px;
+  height: 4px;
+  background-color: rgb(247, 190, 4);
+  display: block;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+.recent-content {
+  width: 27%;
+  float: left;
+  margin-right: 55px;
+  border: 2px solid rgb(216, 214, 214);
+  margin-bottom: 20px;
+  position: relative;
+  
+}
+.recent-content::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 0;
+  top:0;
+  left: 0;
+  background-color: rgb(201, 200, 200);
+  opacity: 0.4;
+  
+}
+
+.recent-content:hover::after {
+  width: 100%;
+  height: 100%;
+  top:0;
+  left: 0;
+  opacity: 1;
+  transition: 1s;
+  z-index: -1;
+}
+
+
+.recent-img {
+ 
+}
+.recent-img img {
+  width: 90%;
+  padding: 15px 13px;
+
+  
+}
+
+.recent-img i {
+  margin-top: -20px;
+  color: rgb(18, 80, 173);
+  text-align: center;
+  padding: 15px 13px;
+  font-size: 13px;
+}
+
+.recent-img-info-title {
+  padding-top: 10px;
+  padding-left: 13px;
+  
+}
+
+.recent-info-text {
+  padding-top: 10px;
+  padding-left: 13px;
+  padding-bottom: 10px;
+  color: rgb(80, 78, 78);
+}
+
+.recent-info-butt {
+  display: block; 
+  color: blue;
+   padding-top: 15px;
+   text-align: center;
+   margin-bottom: 15px;
+  
+}
+
+/*------------------- StartFooter-----------------*/
+
+.myFooter {
+  width: 100%;
+  height: 430px;
+  background-color: rgb(27, 24, 24);
+  margin-top: 50px;
+  text-align: center;
+}
+
+.myFooter img {
+  margin-top: 120px;
+  width: 150px;
+  margin-bottom: 25px;
+  border: 2px solid rgb(248, 171, 3);
+  
+  
+}
+
+.footer-icon i {
+  width: 70px;
+  height: 70px;
+  background-color: rgb(17, 97, 201);
+  border-radius: 50%;
+  line-height: 70px;
+  color: white;
+ text-align: center;
+ margin-top: 20px;
+}
+
+.footer-icon i:hover {
+  background-color:rgb(4, 55, 165);
+  font-size: 20px;
+ 
+}
+
+.footer-icon .footer-text {
+  color: rgb(219, 217, 217);
+  padding-top: 15;
+}
+
+.footer-icon .footer-text:hover {
+  font-size: 21px;
+  
+}
+
+
+
+
+
+
+
+
